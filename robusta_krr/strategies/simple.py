@@ -93,6 +93,7 @@ class SimpleStrategy(BaseStrategy[SimpleStrategySettings]):
             JVMDetector,
             MaxJVMMemoryLoader,
             JVMMemoryAmountLoader,
+            JVMMemoryLoader
         ]
 
         if self.settings.use_oomkill_data:
